@@ -1,13 +1,17 @@
 ﻿using System;
+
 namespace Matematik
 {
     class DortIslem
     {
-        //Topla(2.3)
-        public void Topla(int sayi1 , int sayi2)
+        public void Topla(int sayı1 , int sayı2)
         {
-            int toplam = sayi1 + sayi2
-            Console.WriteLine("sonuç : " + toplam);
+            int toplam = (sayı1 + sayı2);
+            Console.WriteLine("Sonuç : " + toplam);
         }
+        
     }
 }
+
+
+
